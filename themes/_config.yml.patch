@@ -1,0 +1,68 @@
+diff --git a/_config.yml b/_config.yml
+index b4ce7cf..e4da69e 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -108,10 +108,10 @@ creative_commons:
+ # ---------------------------------------------------------------
+ 
+ # Schemes
+-scheme: Muse
++#scheme: Muse
+ #scheme: Mist
+ #scheme: Pisces
+-#scheme: Gemini
++scheme: Gemini
+ 
+ 
+ # ---------------------------------------------------------------
+@@ -125,8 +125,8 @@ scheme: Muse
+ # External url should start with http:// or https://
+ menu:
+   home: / || home
+-  #about: /about/ || user
+-  #tags: /tags/ || tags
++  about: /about/ || user
++  tags: /tags/ || tags
+   #categories: /categories/ || th
+   archives: /archives/ || archive
+   #schedule: /schedule/ || calendar
+@@ -183,8 +183,8 @@ site_state: true
+ # Key is the link label showing to end users.
+ # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
+ social:
+-  #GitHub: https://github.com/yourname || github
+-  #E-Mail: mailto:yourname@gmail.com || envelope
++  GitHub: https://github.com/e8035669 || github
++  E-Mail: mailto:e8035669@gmail.com || envelope
+   #Weibo: https://weibo.com/yourname || weibo
+   #Google: https://plus.google.com/yourname || google
+   #Twitter: https://twitter.com/yourname || twitter
+@@ -361,7 +361,7 @@ codeblock:
+   # Code Highlight theme
+   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+   # See: https://github.com/chriskempson/tomorrow-theme
+-  highlight_theme: normal
++  highlight_theme: night
+   # Add copy button on codeblock
+   copy_button:
+     enable: false
+@@ -396,8 +396,8 @@ bookmark:
+ 
+ # `Follow me on GitHub` banner in the top-right corner.
+ github_banner:
+-  enable: false
+-  permalink: https://github.com/yourname
++  enable: true
++  permalink: https://github.com/e8035669
+   title: Follow me on GitHub
+ 
+ 
+@@ -531,7 +531,7 @@ pjax: false
+ 
+ # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
+ # For more information: https://fancyapps.com/fancybox
+-fancybox: false
++fancybox: true
+ 
+ # A JavaScript library for zooming images like Medium.
+ # Do not enable both `fancybox` and `mediumzoom`.
